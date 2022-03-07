@@ -1,0 +1,60 @@
+body {
+  overflow-x: hidden;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+
+.home-Img {
+  background-image: url("https://media.wired.co.uk/photos/606dba1c9a15f73a597a2aa1/4:3/w_2044,h_1533,c_limit/weather.jpg");
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+.home-pp {
+  font-size: 30px;
+  color: rgb(85, 85, 85);
+  width: 700px;
+  height: 307px;
+}
+
+.decs-home {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 10%;
+}
+.decs-home h1 {
+  color: yellow;
+}
+.decs-home p {
+  width: 75%;
+  font-size: 20px;
+}
+
+.decs-home button {
+  background-color: yellow;
+  width: 25%;
+  color: grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2% 0px;
+  border: none;
+  font-weight: bold;
+  
+}
+.decs-home button:hover {
+  background-color: #a6cc98;
+}
+
+.btn-home{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
